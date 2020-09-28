@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+    <!-- External Css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input autocomplete="off" type="text" placeholder="username12" id="username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input autocomplete="off" type="email" placeholder="user@gmail.com" id="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input autocomplete="off" type="password" placeholder="password" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input autocomplete="off" type="password" placeholder="Confirm Password" id="password2">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+
+</html>
